@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* but not working */
+    .overflow{
+        text-overflow: clip;
+        border: 2px solid black;
+    }
+    /* working */
+    .wrap{
+        word-wrap: break-word;
+        border: 2px solid black;
+        /* line braking */
+        word-break: break-all;
+    }
+    
+</style>
+<body>
+    <h2>text overflow</h2>
+    <p class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt eveniet tempora omnis nulla odio saepe? Doloribus similique, tenetur accusamus eveniet error autem hic, non omnis beatae fugiat recusandae? Sapiente.</p>
+    <br>
+    <h2>word wrap</h2>
+    <p class="wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae qui similique placeat molestiae fugit ipsum illo molestias tempore iusto quos. Earum aperiam dicta iusto amet, velit similique null mobis a.</p>
+
+</body>
+</html>

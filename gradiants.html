@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3 gradiants</title>
+</head>
+<style>
+    /* repeating a linear gradiant  */
+    .cont{
+        background:repeating-linear-gradient(120deg,yellow,blue) ;
+
+    }
+    div{
+        text-align: center;
+        width: 100%;
+        height: 100px;
+    }
+    /* non-repeating */
+    .another{
+        background:linear-gradient(120deg,yellow,blue) ;
+        /* background: linear-gradient(100deg,red,yellow); */
+    }
+    h2{
+        text-align: center;
+    }
+    .radial{
+        background: radial-gradient(blue,red,yellow,green 20px);
+    }
+</style>
+<body>
+    <h2>gradiants</h2>
+    <div class="cont">hello</div>
+    <label for="">no difference</label>
+    <br>
+    <div class="another">non-repeating</div>
+    <br>
+    <h2>redial gradiants</h2>
+    <br>
+    <div class="radial">hello</div>
+</body>
+</html>
